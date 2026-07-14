@@ -1,107 +1,255 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lumiere Beauty | 产品展示</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Lumiere Beauty 首页">Lumiere</a>
-      <nav class="main-nav" aria-label="主导航">
-        <a href="#collection">产品</a>
-        <a href="#ritual">护理</a>
-        <a href="#contact">联系</a>
-      </nav>
-      <button class="icon-button" id="themeToggle" aria-label="切换显示模式" title="切换显示模式">
-        <span class="sun"></span>
-      </button>
-    </header>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow">20 个品类 · 极简展示</p>
-          <h1 id="hero-title">让每一件化妆品，都像主角一样被看见。</h1>
-          <p class="hero-text">为产品图设计的展示网站：干净、明亮、易浏览，适合客户快速查看不同系列和单品。</p>
-          <div class="hero-actions">
-            <a class="primary-action" href="#collection">浏览产品</a>
-            <a class="secondary-action" href="#contact">预约咨询</a>
-          </div>
-        </div>
-        <div class="hero-visual" aria-hidden="true">
-          <div class="display-stage">
-            <div class="product-bottle tall"></div>
-            <div class="product-bottle small"></div>
-            <div class="compact"></div>
-          </div>
-        </div>
-      </section>
+<title>China Market UZ</title>
 
-      <section class="category-strip" aria-label="产品亮点">
-        <span>护肤</span>
-        <span>彩妆</span>
-        <span>香氛</span>
-        <span>身体护理</span>
-        <span>套装礼盒</span>
-      </section>
+<link rel="stylesheet" href="css/styles.css">
 
-      <section class="section collection-section" id="collection" aria-labelledby="collection-title">
-        <div class="section-heading">
-          <p class="eyebrow">Collection</p>
-          <h2 id="collection-title">产品目录</h2>
-          <p>点击分类筛选，点击产品查看展示图和简介。</p>
-        </div>
-        <div class="filters" id="filters" aria-label="产品分类筛选"></div>
-        <div class="product-grid" id="productGrid"></div>
-      </section>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
 
-      <section class="section ritual-section" id="ritual" aria-labelledby="ritual-title">
-        <div class="section-heading">
-          <p class="eyebrow">Simple Routine</p>
-          <h2 id="ritual-title">三步展示逻辑</h2>
-        </div>
-        <div class="ritual-grid">
-          <article>
-            <span>01</span>
-            <h3>先看品类</h3>
-            <p>让客户先按护肤、彩妆、香氛等方向快速进入。</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>再看质感</h3>
-            <p>大图、留白和轻阴影突出瓶身、包装、颜色和纹理。</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>最后联系</h3>
-            <p>每个产品都能引导到微信、电话或表单，减少客户操作。</p>
-          </article>
-        </div>
-      </section>
+</head>
 
-      <section class="contact-section" id="contact" aria-labelledby="contact-title">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2 id="contact-title">想了解产品或定制套装？</h2>
-          <p>这里可以放微信、WhatsApp、电话、店铺地址或询价入口。</p>
-        </div>
-        <a class="primary-action" href="mailto:hello@example.com">发送邮件</a>
-      </section>
-    </main>
+<body>
 
-    <dialog class="product-dialog" id="productDialog">
-      <button class="close-button" id="closeDialog" aria-label="关闭">×</button>
-      <div class="dialog-image" id="dialogImage"></div>
-      <div class="dialog-copy">
-        <p class="eyebrow" id="dialogCategory"></p>
-        <h2 id="dialogTitle"></h2>
-        <p id="dialogDescription"></p>
-        <a class="primary-action" href="#contact">咨询这个产品</a>
-      </div>
-    </dialog>
+<header>
 
-    <script src="./script.js"></script>
-  </body>
+<div class="logo">
+
+China Market UZ
+
+</div>
+
+<nav>
+
+<a href="#">首页</a>
+
+<a href="#products">产品中心</a>
+
+<a href="#about">关于我们</a>
+
+<a href="#contact">联系我们</a>
+
+</nav>
+
+<div class="search">
+
+<input type="text" placeholder="搜索产品...">
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-left">
+
+<span class="tag">
+
+中国商品展示平台
+
+</span>
+
+<h1>
+
+精选来自中国的优质商品
+
+</h1>
+
+<p>
+
+帮助乌兹别克客户快速浏览产品、了解产品并联系采购。
+
+</p>
+
+<a href="#products" class="btn">
+
+浏览产品
+
+</a>
+
+</div>
+
+<div class="hero-right">
+
+<img src="assets/banner/hero.jpg">
+
+</div>
+
+</section>
+
+<section class="stats">
+
+<div>
+
+<h2>30+</h2>
+
+<p>精选产品</p>
+
+</div>
+
+<div>
+
+<h2>8</h2>
+
+<p>产品分类</p>
+
+</div>
+
+<div>
+
+<h2>24H</h2>
+
+<p>在线服务</p>
+
+</div>
+
+<div>
+
+<h2>100%</h2>
+
+<p>中国供应</p>
+
+</div>
+
+</section>
+
+<section class="category">
+
+<button class="active">
+
+全部
+
+</button>
+
+<button>
+
+母婴
+
+</button>
+
+<button>
+
+美妆
+
+</button>
+
+<button>
+
+家居
+
+</button>
+
+<button>
+
+厨房
+
+</button>
+
+<button>
+
+电子
+
+</button>
+
+<button>
+
+礼品
+
+</button>
+
+<button>
+
+自行车
+
+</button>
+
+</section>
+
+<section id="products">
+
+<h2>
+
+精选产品
+
+</h2>
+
+<div class="product-grid" id="productGrid">
+
+<!-- JS生成 -->
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>
+
+关于我们
+
+</h2>
+
+<p>
+
+China Market UZ 致力于将优质中国商品带到乌兹别克市场。
+
+我们专注产品展示、供应链服务和长期合作。
+
+</p>
+
+</section>
+
+<section id="contact">
+
+<h2>
+
+联系我们
+
+</h2>
+
+<div class="contact-box">
+
+<p>
+
+📱 WhatsApp
+
+</p>
+
+<p>
+
+✈ Telegram
+
+</p>
+
+<p>
+
+☎ 电话
+
+</p>
+
+<p>
+
+📍 Tashkent
+
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+©2026 China Market UZ
+
+</footer>
+
+<script src="js/products.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+
 </html>
