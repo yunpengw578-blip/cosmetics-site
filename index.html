@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumiere Beauty | 产品展示</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Lumiere Beauty 首页">Lumiere</a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="#collection">产品</a>
+        <a href="#ritual">护理</a>
+        <a href="#contact">联系</a>
+      </nav>
+      <button class="icon-button" id="themeToggle" aria-label="切换显示模式" title="切换显示模式">
+        <span class="sun"></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">20 个品类 · 极简展示</p>
+          <h1 id="hero-title">让每一件化妆品，都像主角一样被看见。</h1>
+          <p class="hero-text">为产品图设计的展示网站：干净、明亮、易浏览，适合客户快速查看不同系列和单品。</p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#collection">浏览产品</a>
+            <a class="secondary-action" href="#contact">预约咨询</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="display-stage">
+            <div class="product-bottle tall"></div>
+            <div class="product-bottle small"></div>
+            <div class="compact"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="category-strip" aria-label="产品亮点">
+        <span>护肤</span>
+        <span>彩妆</span>
+        <span>香氛</span>
+        <span>身体护理</span>
+        <span>套装礼盒</span>
+      </section>
+
+      <section class="section collection-section" id="collection" aria-labelledby="collection-title">
+        <div class="section-heading">
+          <p class="eyebrow">Collection</p>
+          <h2 id="collection-title">产品目录</h2>
+          <p>点击分类筛选，点击产品查看展示图和简介。</p>
+        </div>
+        <div class="filters" id="filters" aria-label="产品分类筛选"></div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+
+      <section class="section ritual-section" id="ritual" aria-labelledby="ritual-title">
+        <div class="section-heading">
+          <p class="eyebrow">Simple Routine</p>
+          <h2 id="ritual-title">三步展示逻辑</h2>
+        </div>
+        <div class="ritual-grid">
+          <article>
+            <span>01</span>
+            <h3>先看品类</h3>
+            <p>让客户先按护肤、彩妆、香氛等方向快速进入。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>再看质感</h3>
+            <p>大图、留白和轻阴影突出瓶身、包装、颜色和纹理。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>最后联系</h3>
+            <p>每个产品都能引导到微信、电话或表单，减少客户操作。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">想了解产品或定制套装？</h2>
+          <p>这里可以放微信、WhatsApp、电话、店铺地址或询价入口。</p>
+        </div>
+        <a class="primary-action" href="mailto:hello@example.com">发送邮件</a>
+      </section>
+    </main>
+
+    <dialog class="product-dialog" id="productDialog">
+      <button class="close-button" id="closeDialog" aria-label="关闭">×</button>
+      <div class="dialog-image" id="dialogImage"></div>
+      <div class="dialog-copy">
+        <p class="eyebrow" id="dialogCategory"></p>
+        <h2 id="dialogTitle"></h2>
+        <p id="dialogDescription"></p>
+        <a class="primary-action" href="#contact">咨询这个产品</a>
+      </div>
+    </dialog>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
