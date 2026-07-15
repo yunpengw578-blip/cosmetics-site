@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROZO</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <input class="menu-toggle" type="checkbox" id="site-menu" aria-hidden="true" />
+    <input class="view-toggle" type="checkbox" id="see-categories" aria-hidden="true" />
+    <header class="top-bar">
+      <label class="menu-button" for="site-menu" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <strong>MENU</strong>
+      </label>
+
+      <a class="brand" href="#" aria-label="ROZO homepage">ROZO</a>
+
+      <nav class="utility-nav" aria-label="Shop tools">
+        <button class="home-search" type="button" aria-label="Search">
+          <span aria-hidden="true"></span>
+          <input type="search" placeholder="搜索" aria-label="Search products" />
+        </button>
+        <div class="language-menu">
+          <button class="language-switcher" type="button" aria-label="Language switcher" aria-expanded="false" data-lang="en">English</button>
+          <div class="language-options" aria-label="Language options">
+            <button type="button" data-lang="ru">Русский</button>
+            <button type="button" data-lang="uz">Oʻzbekcha</button>
+            <button type="button" data-lang="zh">中文</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <aside class="drawer" aria-label="ROZO menu">
+      <div class="drawer-head">
+        <span></span>
+        <label class="close-button" for="site-menu" aria-label="Close menu"></label>
+      </div>
+
+      <nav class="drawer-nav" aria-label="Main menu">
+        <a href="#">目录留白1</a>
+        <a href="#">目录留白2</a>
+        <a href="#">目录留白3</a>
+      </nav>
+
+      <nav class="drawer-footer" aria-label="Customer links">
+        <a href="#">My Account</a>
+        <a href="#">Wishlist</a>
+        <a href="#">Find a store</a>
+      </nav>
+    </aside>
+    <label class="menu-overlay" for="site-menu" aria-label="Close menu"></label>
+
+    <main class="stage" aria-label="ROZO homepage">
+      <div class="slides">
+        <section class="hero" aria-label="ROZO signature collection">
+          <img class="hero-image" src="assets/images/hero-rozo.png" alt="ROZO jewelry editorial campaign" />
+          <div class="hero-copy">
+            <p>Beauty Collection</p>
+            <h1>ROZO CRUSH</h1>
+            <button class="primary-link" type="button">See More</button>
+          </div>
+        </section>
+
+        <section class="category-panel" aria-label="ROZO product categories">
+          <div class="category-heading">
+            <p>产品类目</p>
+            <h2>PRODUCT CATEGORY</h2>
+          </div>
+
+          <div class="category-grid">
+            <a class="category-card" href="products.html">
+              <img src="assets/images/category-base.png" alt="ROZO 底妆 category" />
+              <span>底妆</span>
+            </a>
+            <a class="category-card" href="products-eye.html">
+              <img src="assets/images/category-eye-photo.png" alt="ROZO 眼部 category" />
+              <span>眼部</span>
+            </a>
+            <a class="category-card" href="products-lip.html">
+              <img src="assets/images/category-lip-photo.png" alt="ROZO 唇类 category" />
+              <span>唇类</span>
+            </a>
+            <a class="category-card" href="products-tools.html">
+              <img src="assets/images/category-tools-photo.png" alt="ROZO 工具 category" />
+              <span>工具</span>
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div class="version-badge">v1.0</div>
+    <script src="script.js"></script>
+  </body>
+</html>

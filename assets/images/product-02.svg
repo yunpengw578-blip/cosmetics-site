@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-label="ROZO chain placeholder">
+  <rect width="720" height="900" fill="#f3f1ec"/>
+  <g fill="none" stroke="#b08a4c" stroke-width="20">
+    <ellipse cx="244" cy="330" rx="72" ry="42" transform="rotate(-30 244 330)"/>
+    <ellipse cx="338" cy="383" rx="72" ry="42" transform="rotate(-30 338 383)"/>
+    <ellipse cx="432" cy="436" rx="72" ry="42" transform="rotate(-30 432 436)"/>
+  </g>
+  <text x="360" y="720" fill="#111111" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" letter-spacing="8">CHAIN</text>
+</svg>

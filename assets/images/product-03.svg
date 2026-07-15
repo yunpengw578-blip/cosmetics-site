@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-label="ROZO ring placeholder">
+  <rect width="720" height="900" fill="#fbfaf8"/>
+  <circle cx="360" cy="390" r="135" fill="none" stroke="#111111" stroke-width="8" opacity="0.82"/>
+  <circle cx="360" cy="390" r="105" fill="none" stroke="#b08a4c" stroke-width="24"/>
+  <circle cx="438" cy="292" r="26" fill="#ffffff" stroke="#b08a4c" stroke-width="10"/>
+  <text x="360" y="720" fill="#111111" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" letter-spacing="8">RING</text>
+</svg>

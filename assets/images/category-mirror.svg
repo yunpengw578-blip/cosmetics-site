@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-label="ROZO mirror category">
+  <rect width="720" height="900" fill="#f7f6f3"/>
+  <circle cx="360" cy="350" r="155" fill="#ffffff" stroke="#b08a4c" stroke-width="22"/>
+  <circle cx="360" cy="350" r="116" fill="#eceff0"/>
+  <path d="M442 460 L535 610" stroke="#111111" stroke-width="24" stroke-linecap="round"/>
+  <path d="M300 300 C338 260, 390 252, 430 280" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" opacity="0.9"/>
+  <text x="360" y="735" fill="#111111" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" letter-spacing="8">ROZO</text>
+</svg>
